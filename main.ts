@@ -1,8 +1,8 @@
-import { connectWebSocket } from "./network"
-import { setupServer } from "./server"
-import { handleTransaction } from "./transactionHandler"
-import { walletHealthCheck } from "./walletManager"
-import { WS_LIST } from "./config"
+import { connectWebSocket } from "./src/network"
+import { setupServer } from "./src/server"
+import { handleTransaction } from "./src/transactionHandler"
+import { walletHealthCheck } from "./src/walletManager"
+import { WS_LIST } from "./src/config"
 
 WS_LIST.forEach((rpc) => {
   connectWebSocket(rpc)
