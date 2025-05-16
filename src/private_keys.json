@@ -1,0 +1,12 @@
+{
+  "PRIVATE_KEYS_STANDARD": [
+    "0x_PRIVATE_KEY_1",
+    "0x_PRIVATE_KEY_2",
+    "0x_PRIVATE_KEY_3"
+  ],
+  "PRIVATE_KEYS_EXPERIMENTAL": [
+    "0x_PRIVATE_KEY_4",
+    "0x_PRIVATE_KEY_5",
+    "0x_PRIVATE_KEY_6"
+  ]
+}
